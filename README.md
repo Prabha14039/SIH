@@ -42,8 +42,8 @@ git checkout main
 ```
 
 ### framework used :
-#### Pytorch
-#### Tensorflow framewrok
+#### Pytorch( You can download this from the [torch site](https://pytorch.org/)
+#### Tensorflow
 
 ## GPU Setup for docker
 
