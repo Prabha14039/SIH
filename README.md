@@ -55,56 +55,62 @@ git checkout main
 
 ### use docker to create a virtual env to run the file:
 
+### prequiesties:
+#### Docker
+
 <details>
-  <summary>Click here to see more details</summary>
+  <summary><h3>Installation</h3></summary>
 
-  ### Hidden Section
+  #### **Install**
+  ```bash
+     sudo docker pull tensorflow/tensorflow:latest-gpu
+  ```
 
-  This section is hidden by default. It can contain Markdown formatting like **bold text**, lists, code blocks, and more.
-  sudo docker pull tensorflow/tensorflow:latest-gpu
+  #### **Virtual env**
 
-  - Bullet Point 1
-  - Bullet Point 2
+  #### linux/ubuntu/debain
+  ```bash
+     sudo docker run --gpus all -it --user root -v ~/path/to/your/directory/SIH:/home/SIH tensorflow/tensorflow:latest-gpu bash
+  ```
+
+  #### Add the path of the SIH directory
+
+  #### windows
+  ```bash
+     docker run --gpus all -it --user root -v ~/path/to/your/directory/SIH:/home/SIH tensorflow/tensorflow:latest-gpu bash
+  ```
+
+
+  #### **Setup**
+
+  #### To install some packages when in tensordlow
+  ```bash
+     apt-get update
+     apt-get install git nano
+     cd /path/to/your/direc/SIH
+  ```
+
+  #### if this error occur
+
+  ```bash
+     fatal: detected dubious ownership in repository at '/path/to/your/direc/SIH'
+     To add an exception for this directory, call:
+
+     git config --global --add safe.directory /path/to/your/direc/SIH
+  ```
+
+  #### do this
+
+  ```bash
+     git config --global --add safe.directory /path/to/your/directory/SIH
+  ```
+
+  #### After this you will be able to checkout easily into other branches
+  #### If you exit the existing environment then you would have to do all the proccess again
 
 </details>
 
 
-#### linux/ubuntu/debain
-```bash
-sudo docker run --gpus all -it --user root -v ~/path/to/your/directory/SIH:/home/SIH tensorflow/tensorflow:latest-gpu bash
-```
-
-#### Add the path of the SIH directory
-
-#### windows
-```bash
-docker run --gpus all -it --user root -v ~/path/to/your/directory/SIH:/home/SIH tensorflow/tensorflow:latest-gpu bash
-```
-
-#### To install some packages when in tensordlow
-```bash
-apt-get update
-apt-get install git nano
-cd /path/to/your/direc/SIH
-```
-
-#### if this error occur
-
-```bash
-fatal: detected dubious ownership in repository at '/path/to/your/direc/SIH'
-To add an exception for this directory, call:
-
-        git config --global --add safe.directory /path/to/your/direc/SIH
-```
-
-#### do this
-
-```bash
-git config --global --add safe.directory /path/to/your/directory/SIH
-```
-#### after this you will be able to checkout easily into other branches
-
-#### if you exit the existing environment then you would have to do all the proccess again
 
 
 
