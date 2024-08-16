@@ -48,7 +48,7 @@ git checkout main
 ## GPU Setup for docker
 
 ### *Note the following commands below are only for those who wish to use GPU on docker the step by step apporach is given below if you are intersted in doing another way you can do it*
-### *You can use this to run you program not*
+### *You can use this to run you program*
 ### *GPUS are used mostly in training and inference for dealing with any DL model hence GPU is prefered*
 
 ## !!!Warning these can only be done if you want to/have a gpu in your system
