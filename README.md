@@ -55,6 +55,20 @@ git checkout main
 
 ### use docker to create a virtual env to run the file:
 
+<details>
+  <summary>Click here to see more details</summary>
+
+  ### Hidden Section
+
+  This section is hidden by default. It can contain Markdown formatting like **bold text**, lists, code blocks, and more.
+  sudo docker pull tensorflow/tensorflow:latest-gpu
+
+  - Bullet Point 1
+  - Bullet Point 2
+
+</details>
+
+
 #### linux/ubuntu/debain
 ```bash
 sudo docker run --gpus all -it --user root -v ~/path/to/your/directory/SIH:/home/SIH tensorflow/tensorflow:latest-gpu bash
