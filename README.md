@@ -16,5 +16,21 @@
 #### a. A fully functional system capable of generating and serving Cloud Optimized GeoTIFFs from INSAT data.
 #### b. Tools for real-time manipulation of multiple spectral bands. Enhanced accessibility and usability of INSAT satellite data for various applications
 
+\```bash
+git clone https://github.com/Prabha14039/SIH.git
+cd SIH
+\```
 
-for more info visit: [[https://www.sih.gov.in/sih2024PS?technology_bucket=QWxs&category=U29mdHdhcmU=&organization=SW5kaWFuIFNwYWNlIFJlc2VhcmNoIE9yZ2FuaXphdGlvbiAoSVNSTyk=&organization_type=QWxs]]
+### Topic1
+\```bash
+git checkout Topic1
+\```
+
+### Topic2
+\```bash
+git checkout Topic2
+\```
+
+[click here for more info visit:](https://www.sih.gov.in/sih2024PS?technology_bucket=QWxs&category=U29mdHdhcmU=&organization=SW5kaWFuIFNwYWNlIFJlc2VhcmNoIE9yZ2FuaXphdGlvbiAoSVNSTyk=&organization_type=QWxs)
+
+
