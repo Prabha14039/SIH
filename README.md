@@ -39,6 +39,26 @@ git checkout Topic2
 git checkout main
 ```
 
-[click here for more info visit:](https://www.sih.gov.in/sih2024PS?technology_bucket=QWxs&category=U29mdHdhcmU=&organization=SW5kaWFuIFNwYWNlIFJlc2VhcmNoIE9yZ2FuaXphdGlvbiAoSVNSTyk=&organization_type=QWxs)
+### framework used :
+#### Pytorch
+#### Tensorflow framewrok
+
+## !!!Warning these can only be done if you want to/have a gpu in your system
+
+### use docker to create a virtual env to run the file:
+
+#### linux/ubuntu/debain
+```bash
+sudo docker run --gpus all -it --user root -v ~/path/to/your/directory/SIH:/home/SIH tensorflow/tensorflow:latest-gpu bash
+```
+
+#### Add the path of the SIH directory
+
+#### windows
+```bash
+docker run --gpus all -it --user root -v ~/path/to/your/directory/SIH:/home/SIH tensorflow/tensorflow:latest-gpu bash
+```
+
+[click here for more info:](https://www.sih.gov.in/sih2024PS?technology_bucket=QWxs&category=U29mdHdhcmU=&organization=SW5kaWFuIFNwYWNlIFJlc2VhcmNoIE9yZ2FuaXphdGlvbiAoSVNSTyk=&organization_type=QWxs)
 
 
