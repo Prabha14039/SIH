@@ -8,6 +8,8 @@
 
 ### Reference Links to Research paper:
 #### [Low Light Image Enhancement](https://paperswithcode.com/task/low-light-image-enhancement)
+#### [Analysis of the permanently shadowed region of Cabeus crater in lunar south pole using orbiter high resolution camera imagery](https://www.sciencedirect.com/science/article/pii/S0019103523003391#:~:text=Permanently%20shadowed%20regions%20(PSRs)%20on,elevation%20angles%20throughout%20the%20year.)
+#### [Surface morphology inside the PSR area of lunar polar crater Shoemaker in comparison with that of the sunlit areas](https://www.sciencedirect.com/science/article/pii/S0032063324000035)
 
 ### Important Terms:
 #### [Color Spaces](https://developer.mozilla.org/en-US/docs/Glossary/Color_space)
