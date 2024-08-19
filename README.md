@@ -42,10 +42,10 @@ git checkout main
 ```
 
 ### framework used :
-#### Pytorch( You can download this from the [torch site](https://pytorch.org/)
+#### Pytorch (You can download this from the [torch site](https://pytorch.org/))
 #### Tensorflow
 
-## GPU Setup for docker
+## GPU Setup for tensorflow on  docker
 
 ### *Note the following commands below are only for those who wish to use GPU on docker the step by step apporach is given below if you are intersted in doing another way you can do it*
 ### *You can use this to run you program*
