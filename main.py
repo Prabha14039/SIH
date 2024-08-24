@@ -17,5 +17,5 @@ else:
     cv2.imshow("grbeyscale",flit2d)
     cv2.waitKey(0)
     cv2.destroyAllWindow()
-    
-   
+
+
