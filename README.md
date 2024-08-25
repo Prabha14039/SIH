@@ -11,7 +11,7 @@
 #### [Analysis of the permanently shadowed region of Cabeus crater in lunar south pole using orbiter high resolution camera imagery](https://www.sciencedirect.com/science/article/pii/S0019103523003391#:~:text=Permanently%20shadowed%20regions%20(PSRs)%20on,elevation%20angles%20throughout%20the%20year.)
 #### [Surface morphology inside the PSR area of lunar polar crater Shoemaker in comparison with that of the sunlit areas](https://www.sciencedirect.com/science/article/pii/S0032063324000035)
 #### [Automated detection and classification of lunar craters using multiple approaches](https://www.sciencedirect.com/science/article/pii/S0273117705010392#bbib14)
-
+#### [Noise2Void - Learning Denoising from Single Noisy Images](https://arxiv.org/abs/1811.10980)
 ### Important Terms:
 #### [Color Spaces](https://developer.mozilla.org/en-US/docs/Glossary/Color_space)
 
