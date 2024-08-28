@@ -15,3 +15,21 @@
 ### Important Terms:
 #### [Color Spaces](https://developer.mozilla.org/en-US/docs/Glossary/Color_space)
 
+
+### Code:
+#### How to do selenorefrencing of an image
+#### First you need to install gdal
+```bash
+conda create -n gdal
+conda activate gdal
+conda install -c conda-forge gdal
+```
+
+#### Verify installation
+```bash
+python
+from osgeo import gdal
+```
+#### if no error occur hence the installation was succesful
+#### if you are using Linux use the .sh file
+#### if you are using Win use .bat file
