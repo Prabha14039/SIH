@@ -32,10 +32,10 @@ GCP4="$IMAGE_WIDTH $IMAGE_HEIGHT $LOWER_RIGHT_LON $LOWER_RIGHT_LAT"  # Lower-rig
 gdal_translate -of GTiff -gcp $GCP1 -gcp $GCP2 -gcp $GCP3 -gcp $GCP4 "$INPUT_IMAGE" "$TEMP_IMAGE"
 
 # Step 2: Use gdalwarp to transform the image with cubic resampling and TPS (Thin Plate Spline)
-gdalwarp -r cubic -tps -co COMPRESS=NONE "$TEMP_IMAGE" "$MODIFIED_IMAGE"
+gdalwarp -t_srs ESRI:104903 -r cubic -tps -co COMPRESS=NONE "$TEMP_IMAGE" "$MODIFIED_IMAGE"
 
 # Step 3: Reproject the image using gdalwarp to a stereographic projection
-gdalwarp -overwrite -s_srs "+proj=longlat +a=1737400 +b=1737400 +no_defs" -t_srs "+proj=stere +lat_0=-90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +a=1737400 +b=1737400 +units=m +no_defs" -dstnodata 0 -of GTiff "$MODIFIED_IMAGE" "$FINAL_IMAGE"
+gdalwarp -overwrite -s_srs ESRI:104903 -t_srs ESRI:103878 -dstnodata 0 -of GTiff "$MODIFIED_IMAGE" "$FINAL_IMAGE"
 
 echo "Processing complete. Final image saved as $FINAL_IMAGE."
 
