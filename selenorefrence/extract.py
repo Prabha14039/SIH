@@ -4,7 +4,7 @@
 from lxml import etree
 
 # Path to the XML file
-XML_FILE = "PSR_dataset/data/calibrated/20211222/ch2_ohr_ncp_20211222T2023166276_d_img_d32.xml"
+XML_FILE = "../dataset/data/calibrated/20211222/ch2_ohr_ncp_20211222T2023166276_d_img_d32.xml"
 
 # Define namespaces
 namespaces = {

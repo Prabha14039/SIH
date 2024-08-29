@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Paths
-INPUT_IMAGE="ch2_ohr_ncp_20211222T2023166276_d_img_d32.tif"
+INPUT_IMAGE="../clahe_enhanced_image1.tif"
 TEMP_IMAGE="ch2_ohr_ncp_20211222T2023166276_d_img_d32_temp.tif"
 MODIFIED_IMAGE="ch2_ohr_ncp_20211222T2023166276_d_img_d32_modified.tif"
 FINAL_IMAGE="ch2_ohr_ncp_20211222T2023166276_d_img_d32_final.tif"
