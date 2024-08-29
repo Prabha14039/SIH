@@ -1,3 +1,4 @@
 *.png
 dataset/*
-ch2_ohr_ncp_20210405T1606536730_d_img_d18/*
+*.tif
+*.zip
