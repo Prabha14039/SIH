@@ -35,7 +35,7 @@ from osgeo import gdal
 
 #### Env create
 ```bash
-conda -create -n n2v python=3.9
+conda create -n n2v python=3.9
 conda activate n2v
 ```
 #### Linux
