@@ -9,8 +9,8 @@ from osgeo import gdal
 Image.MAX_IMAGE_PIXELS = None
 
 # Load the TIFF image using PIL without loading it into memory
-image_path = 'dataset/ch2_ohr_ncp_20211228T2209123959_d_img_d18.tif'
-output_path = 'clahe_enhanced_image_wavelet_3.tif'
+image_path = '../dataset/ch2_ohr_ncp_20211222T2023166276_d_img_d32.tif'
+output_path = 'clahe_enhanced_image_wavelet_4.tif'
 
 # Open the source dataset using GDAL to extract projection (if needed)
 src_dataset = gdal.Open(image_path)

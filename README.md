@@ -30,6 +30,44 @@ conda install -c conda-forge gdal
 python
 from osgeo import gdal
 ```
+
+### n2v
+
+#### Env create
+```bash
+conda -create -n n2v python=3.9
+conda activate n2v
+```
+#### Linux
+```bash
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
+python3 -m pip install tensorflow==2.10
+```
+
+#### For windows
+```bash
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+python3 -m pip install tensorflow==2.10
+```
+
+#### installation
+```bash
+git clone https://github.com/juglab/n2v.git
+cd n2v
+pip install -e .
+```
+
+#### jupyter environment with conda
+```bash
+conda activate n2v
+pip install ipykernel
+python -m ipykernel install --user --name n2v --display-name "my_env"
+```
+
+#### after this run jupyter lab
+#### if jupyter lab not install install it then install it
+
 #### if no error occur hence the installation was succesful
 #### if you are using Linux use the .sh file
 #### if you are using Win use .bat file
