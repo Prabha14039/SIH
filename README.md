@@ -62,6 +62,7 @@ pip install -e .
 ```bash
 conda activate n2v
 pip install ipykernel
+pip install numpy==1.23.5
 python -m ipykernel install --user --name n2v --display-name "my_env"
 ```
 
